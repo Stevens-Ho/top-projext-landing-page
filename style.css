@@ -26,4 +26,5 @@ body .container {
 .header.list {
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
 }
