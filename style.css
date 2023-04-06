@@ -28,3 +28,9 @@ body .container {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
+.first.header {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
