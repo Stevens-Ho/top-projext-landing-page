@@ -34,3 +34,9 @@ body .container {
     font-weight: bolder;
     color:#f9faf8;
 }
+
+.header.list,
+.first.content {
+    font-size: 18px;
+    color: #e5e7eb;
+}
