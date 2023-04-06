@@ -7,3 +7,9 @@ body .container {
     display: flex;
     flex-direction: column;
 }
+
+.container > .header,
+.first.main,
+.footer {
+    background-color: #1f2937;
+}
