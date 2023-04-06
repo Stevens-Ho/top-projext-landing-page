@@ -17,3 +17,8 @@ body .container {
 .third.main {
     background-color: #e5e7eb;
 }
+
+.container > .header {
+    display: flex;
+    justify-content: space-around;
+}
