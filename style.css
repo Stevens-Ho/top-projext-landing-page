@@ -2,3 +2,8 @@ body .container {
     display: flex;
     flex-direction: column;
 }
+
+.main.information {
+    display: flex;
+    flex-direction: column;
+}
