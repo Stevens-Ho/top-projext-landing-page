@@ -41,7 +41,8 @@ body .container {
 }
 
 .header.list,
-.first.content {
+.first.content,
+.first.image {
     font-size: 18px;
     color: #e5e7eb;
 }
