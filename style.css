@@ -1,3 +1,7 @@
+body {
+    font-family: "Helvetica";
+}
+
 body .container {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,10 @@ body .container {
     justify-content: space-around;
 }
 
+.header.logo {
+    color:#f9faf8;
+}
+
 .header.list {
     display: flex;
     justify-content: space-evenly;
@@ -32,8 +40,9 @@ body .container {
 
 .first.main {
     display: flex;
+    padding: 70px 180px;
 }
-
+/*left*/
 .first.header {
     font-size: 48px;
     font-weight: bolder;
@@ -42,11 +51,33 @@ body .container {
 
 .header.list,
 .first.content,
-.first.image {
+.first.image,
+.first.button {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header.logo {
-    color:#f9faf8;
+.first.header,
+.first.content,
+.first.button {
+    max-width: 400px;
+    margin: 5px;
+    margin-right: 40px;
+}
+
+.first.button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 30px;
+    border: 0;
+    font-weight: bolder;
+}
+
+/*right*/
+.first.right {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
 }
