@@ -27,6 +27,7 @@ body .container {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    gap: 30px;
 }
 
 .first.header {
