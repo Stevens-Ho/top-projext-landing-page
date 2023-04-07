@@ -30,6 +30,10 @@ body .container {
     gap: 30px;
 }
 
+.first.main {
+    display: flex;
+}
+
 .first.header {
     font-size: 48px;
     font-weight: bolder;
