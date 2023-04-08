@@ -118,3 +118,23 @@ body > .container {
     width: 150px;
     text-align: center;
 }
+
+/*third main information*/
+.third.main {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 250px;
+}
+
+.third.paragraph {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 0;
+}
+
+.third.name {
+    align-self: flex-end;
+    margin: 0;
+}
