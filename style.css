@@ -173,3 +173,11 @@ body > .container {
 .fourth.title {
     font-weight: bolder;
 }
+
+/*footer*/
+.footer.content {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+}
