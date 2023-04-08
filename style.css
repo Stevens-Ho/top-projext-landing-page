@@ -81,3 +81,40 @@ body > .container {
     align-items: center;
     width: 500px;
 }
+
+/*second main information*/
+.second.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.second.header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.second.big.container {
+    display: flex;
+    gap: 40px;
+}
+
+.second.big.container .second.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second.box {
+    border: 4px solid#3882f6;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+.second.text {
+    width: 150px;
+    text-align: center;
+}
