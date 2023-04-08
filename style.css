@@ -138,3 +138,37 @@ body > .container {
     align-self: flex-end;
     margin: 0;
 }
+
+/*fourth main information*/
+.fourth.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 100px 210px;
+    padding: 50px 110px;
+    border-radius: 10px;
+}
+
+.fourth.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth.title,
+.fourth.content,
+.fourth.button {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.fourth.button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+.fourth.title {
+    font-weight: bolder;
+}
